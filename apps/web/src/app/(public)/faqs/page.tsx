@@ -2,6 +2,7 @@
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Typography } from "@edust/ui"
 import { ChevronDown } from "lucide-react";
+import { FaqsHorizontalMenu } from "./components/faqs-horizontal-menu";
 
 const faqs = [
   {
@@ -97,6 +98,7 @@ export default function Faqs() {
           </Accordion>
         ))}
       </div>
+      <FaqsHorizontalMenu />
     </div>
   )
 }
